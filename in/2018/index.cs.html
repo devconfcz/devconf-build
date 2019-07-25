@@ -1,0 +1,653 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <script type="text/javascript">
+    path = window.location.pathname;
+    if (window.location.pathname == "" || window.location.pathname == "/") {
+      switch(window.location.hostname) {
+        case "devconf.cz":
+          path = "/cz";
+          break;
+        case "devconf.in":
+          path = "/in";
+          break;
+        case "devconf.us":
+          path = "/us";
+          break;
+      }
+    }
+    if (window.location.hostname != "devconf.info" && window.location.hostname != "localhost") {
+       window.location.href = 'https://devconf.info' + path; 
+    }
+  </script>
+
+   <!-- BEGIN meta includes -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="author" content="Chris Ward <cward@redhat.com>">
+  <meta name="description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
+
+  <meta property="og:title" content="DevConf.IN | August 2-3, 2019 - Bengaluru, India">
+  <meta property="og:site_name" content="DevConf.IN">
+  <meta property="og:description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://devconf.in">
+  <meta property="og:image" content="https://devconf.info/images/icon/in/devconf-in-icon.svg">
+  <meta property="twitter:image" content="https://devconf.info/images/icon/in/devconf-in-icon.svg">
+
+  <!-- YouTube Channel Linking Verification - DO NOT REMOVE!! -->
+  <meta name="google-site-verification" content="IXOh3zMePCSVZkCqKQr8dZVFfpQgPG5Og-ZpULr8MJ4" />
+
+  <!-- Favicons -->
+  <!-- Thanks to https://realfavicongenerator.net/ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#512954">
+  <meta name="theme-color" content="#ffffff">
+
+<!-- END meta includes --> 
+
+   <!-- BEING CSS -->
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,800,800italic,900,900italic%7COpen+Sans:400,400i,700%7CRoboto%7CRoboto+Mono' rel='stylesheet' type='text/css'>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="/css/framework.css">
+    <link rel="stylesheet" type="text/css" href="/css/site.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+
+<!-- END CSS --> 
+
+  <title> DevConf.IN | August 2-3, 2019 - Bengaluru, India </title>
+
+</head>
+
+<body>
+
+  <div class="page-preloader page-preloader-dark">
+      <div class="loader loader-frames"><i></i><i></i><i></i><i></i></div>
+  </div>
+
+   
+
+
+  
+  
+
+<!-- BEGIN navigation -->
+
+<div>
+  <div class="header header-dark">
+    <a href="#" class="header-icon header-icon-1 open-left-sidebar"><i class="fa fa-navicon"></i></a>
+    <a href="/index.cs.html" class="header-logo scale-hover"></a>
+    <!--<a href="#" class="header-icon header-icon-4 open-right-sidebar"><i class="fa fa-gears"></i></a>-->
+  </div>
+
+  <div class="sidebar-left sidebar-light">
+    <div class="sidebar-scroll">
+      <div class="sidebar-header sidebar-header-background">
+        <h1>DevConf</h1>
+        <h2>Contributors Conference</h2>
+        <img class="sidebar-logo-image preload-image" data-original="/images/icon/devconf-icon-50x50.png">
+        <div class="sidebar-header-controls">
+          <a href="https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.facebook.com/DevConf.IN"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/devconf_in"><i class="fa fa-twitter"></i></a>
+          <a href="https://t.me/devconfin"><i class="fa fa-telegram"></i></a>
+          <a href="mailto:info@devconf.in"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="sidebar-divider">Upcoming Events</div>
+
+      <div class="sidebar-menu">
+        <div class="has-submenu">
+          <a class="menu-item open-submenu active-item" href="#"><!-- active-item -->
+            <i class="bg-green-dark fa fa-home"></i>Main Events<em class="menu-number">0</em>
+          </a>
+          <div class="submenu active-submenu"><!--active-submenu-->
+            <a class="menu-item color-black" href="/us/2019/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Boston US 2019<i class="fa fa-circle"></i>
+            </a>
+          </div>
+          <div class="submenu active-submenu">
+            <a class="menu-item color-black" href="/cz/2019/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Brno CZ 2019<i class="fa fa-circle"></i>
+            </a>
+          </div>
+          <div class="submenu active-submenu">
+            <a class="menu-item color-black" href="/in/2019/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>India 2019<i class="fa fa-circle"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-divider color-gray-dark">Past Events</div>
+
+        <div class="has-submenu">
+          <a class="menu-item open-submenu" href="#">
+            <i class="bg-gray-dark fa fa-history"></i>Main Events<em class="menu-number">0</em>
+          </a>
+          <div class="submenu">
+	    <a class="menu-item color-gray-dark" href="/us/2018/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Boston 2018<i class="fa fa-circle"></i>
+            </a>
+            <a class="menu-item color-gray-dark" href="/cz/2018/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Brno 2018<i class="fa fa-circle"></i>
+            </a>
+            <a class="menu-item color-gray-dark" href="/cz/2017/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Brno 2017<i class="fa fa-circle"></i>
+            </a>
+            <a class="menu-item color-gray-dark" href="/in/2018/index.cs.html">
+              <i class="fa fa-calendar-check-o"></i>Bengaluru 2018<i class="fa fa-circle"></i>
+            </a>
+            <a class="menu-item color-gray-dark" href="https://rootconf.talkfunnel.com/devconf-2017/">
+              <i class="fa fa-calendar-check-o"></i>Bengaluru 2017<i class="fa fa-circle"></i>
+            </a>
+            <a class="menu-item color-gray-dark" href="https://devconfcz2016.sched.com/">
+              <i class="fa fa-calendar-check-o"></i>Brno 2016<i class="fa fa-circle"></i>
+            </a>
+          </div>
+        </div>
+      <div class="has-submenu">
+        <a class="menu-item open-submenu" href="#"><!-- active-item -->
+          <i class="bg-gray-dark fa fa-history"></i>Roadshows<em class="menu-number">0</em>
+        </a>
+        <div class="submenu"><!--active-submenu-->
+          <a class="menu-item color-gray-dark" href="/cz/2017/roadshow-prague.cs.html">
+            <i class="fa fa-calendar-check-o"></i>Prague 2017<i class="fa fa-circle"></i>
+          </a>
+          <a class="menu-item color-gray-dark" href="/sk/2017/roadshow-bratislava.cs.html">
+            <i class="fa fa-calendar-check-o"></i>Bratislava 2017<i class="fa fa-circle"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-divider color-gray-dark"></div>
+
+    <!--
+    <div class="demo-socials">
+      <a href="https://t.me/devconfcz" class="button button-icon devconf-bg"><i class="fa fa-telegram"></i>Join us on Telegram!</a>
+    </div>
+    -->
+
+    <div class="sidebar-divider color-gray-dark"></div>
+
+    <div class="sidebar-contact border-menu-dark">
+      <div class="sidebar-form contact-form no-bottom">
+        <p>Want to recieve updates about current and future DevConf events?</p>
+        <form action="https://devconf.us14.list-manage.com/subscribe/post?u=4405d7552dfc612aef814da21&amp;id=9dfaafef37" method="post" target="_blank" class="subscribeForm" id="subscribeForm" novalidate>
+          <fieldset>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"   name="b_4405d7552dfc612aef814da21_9dfaafef37" tabindex="-1" value=""></div>
+              <button type="submit"
+                            class="button no-border button-green"
+                            title="Stay up to date with DevConf Events around the world"
+                            data-toggle="popover"
+                            data-trigger="hover"
+                            data-placement="top"
+                            data-content="Updates and event information">
+                          Click to Subscribe &nbsp;&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  -->
+
+<!-- END navigation --> 
+
+  <div id="page-content" class="header-clear-full">
+    <div id="page-content-scroll">
+
+       <!-- BEGIN devconfus-2018-eventpage -->
+<div class="content">
+  <div class="container event-container">
+
+    <div class="material-full-bottom">
+      <img data-original="/images/canva/devconf-in-2018-header-3.jpg" class="preload-image no-bottom responsive-image" alt="img" />
+
+      <!--
+      <div class="menu-bottom-bar menu-bottom-bar-four light-menu-bar menu-bottom-bar-text flat-menu-bar no-top cfp-menu">
+        <a href="/devconf-error-cfp-not-open.html" target="_blank" class="border-blue-dark"><i class="fa fa-code"></i><em>Submit a proposal</em></a>
+        <a href="/devconf-error-cfp-not-open.html" target="_blank" class="border-magenta-dark selected-bottom-bar"><i class="fa fa-bullhorn"></i><em>Run a booth</em></a>
+        <a href="/devconf-error-cfp-not-open.html" target="_blank" class="border-orange-dark"><i class="fa fa-coffee"></i><em>Host a BoF</em></a>
+        <a href="/devconf-error-cfp-not-open.html" target="_blank" class="border-night-light"><i class="fa fa-group"></i><em>Volunteer</em></a>
+        <div class="clear"></div>
+      </div>
+    -->
+
+      <div class="notification-small border-red-dark" style="margin-bottom: 5px; margin-top: 5px">
+          <strong class="bg-red-dark"><i class="fa fa-info"></i></strong>
+          <p>This event is OVER! </i></a></p>
+      </div>
+
+      <div class="notification-small border-blue-dark" style="margin-bottom: 5px; margin-top: 5px">
+          <strong class="bg-blue-dark"><i class="fa fa-info"></i></strong>
+          <p>Schedule is public <a href="https://devconf.info/in/2018/schedule" target="_blank"><i class="fa fa-external-link"></i></a></p>
+      </div>
+
+      <div class="decoration-line-fade decoration-margins"></div>
+      <div class="responsive">
+        <p>DevConf.in 2018 is the first annual Developers&#39; Conference to be organised by <a href="https://redhat.com">Red Hat</a> in Bengaluru, India. It is meant to provide a platform to the local FOSS community participants to come together and engage in the knowledge sharing through technical talks, workshops, panel discussions, hackathon and such activities.</p>
+        <p><strong>When:</strong> August 4-5, 2018</p>
+        <p><strong>Prostory:</strong> <a href="https://christuniversity.in/" target="_blank">Christ University</a> - Bengaluru, India
+          <p>You should consider attending this DevConf event if you are:</p>
+          <ul>
+            <li>Vývojář</li>
+            <li>Technology architect</li>
+            <li>IT konzultant</li>
+            <li>IT student nebo vyučující na IT univerzitě či fakultě</li>
+            <li>Nebo jednoduše nadšenec do IT, zajímající se o nejnovější trendy v open source a nově vznikajících digitálních technologií</li>
+          </ul>
+          <p>DevConf events are free, without admission or ticket charge. On-line registration is required though.</p>
+          <p>Talks, presentations, workshops (etc) will all be in English.</p>
+
+          <p>The primary event themes this year are:</p>
+          <ul>
+            <li>Agile</li>
+            <li>Machine Learning and Artificial Intelligence</li>
+            <li>Cryptography / Block Chain</li>
+            <li>Networking / Security Technologies / Research</li>
+            <li>Automation / Configuration Management/ Infrastructure</li>
+            <li>Cloud / Containers / DevOps</li>
+            <li>Community building / Diversity</li>
+            <li>Database / Storage</li>
+            <li>Developer tools / Debugging / Tracing</li>
+            <li>Design / UX</li>
+            <li>Desktop</li>
+            <li>Documentation</li>
+            <li>Hardware / Kernel / OS / Platform</li>
+            <li>IoT / Mobile</li>
+            <li>Middleware</li>
+            <li>QA Testing, Performance Optimization, Web Workload</li>
+            <li>Virtualization</li>
+            <li>Workshop</li>
+            <li>Serverless computing</li>
+            <li>Customer-Use cases</li>
+            <li>Messaging queues</li>
+          </ul>
+
+          <h3>Important dates:</h3>
+          <ul>
+            <li>CfP Opens: <b>March 19, 2018</b></li>
+            <li>CfP Closes: <b>May 4, 2018</b></li>
+            <li>Accepted speakers confirmation: <b>June 11, 2018</b></li>
+            <li><strike>Accepted speakers confirmation: <b>June 4, 2018</b></strike></li>
+            <li>Schedule published: <b>June 11, 2018</b></li>
+            <li>Registration opens: <b>June 11, 2018</b></li>
+            <li>Event dates: <b>Saturday, August 4 to Sunday, August 5, 2018</b></li>
+          </ul>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <!-- BEGIN devconf 2018 sponsors -->
+
+  <a name="guidelines"></a>
+
+  <div class="decoration-line-fade decoration-margins"></div>
+
+  <div class="content no-material">
+    <div class="heading-strip bg-heading-strip-1">
+      <h4 class="center-text">Attendee Guidelines</h2>
+      <div class="overlay dark-overlay"></div>
+    </div>
+
+
+    <p class="full-bottom">
+      All attendees are requested to follow DevConf.in Twitter handle (<a href="https://devconf.info/in/twitter" target="_blank">@devconf_in</a>) and our facebook page (<a href="https://devconf.info/in/facebook" target="_blank">fb.com/devconf.IN</a>) to folow the latest updates/announcements during the conference related to schedule change, session/workshop cancellation, speakers drop out etc in case of unexpected changes.
+    </p>
+
+    <div class="clear"></div>
+
+    <p class="full-bottom">
+      As it is monsoon time in India and we need to shuffle between two buildings it is advisable to carry an ☔ with you.
+    </p>
+
+    <p class="full-bottom">
+      Attendees registration desk will be separate from speakers registration at the entrance of the Auditorium block. Please make sure you are registering at the right desk.
+    </p>
+
+    <p class="full-bottom">
+      Check-in is managed using Eventbrite. Keep the email reply from Eventbrite that you were sent after registering. The QR Code you received is required on the day of the conference to complete check at the conference.
+    </p>
+
+    <p class="full-bottom">
+      Registrations will start at 8AM. Please come early to avoid que. We expect the line will be long on day 1, so your patience and cooperation is appreciated!
+    </p>
+
+    <p class="full-bottom">
+      Attendees are requested to save the DevConf.IN schedule page to their phone for the updates, the guide on how to get the page on your phone is as follows:
+    </p>
+
+    <div class="one-half-responsive no-material full-bottom">
+      <ol>
+        <li>
+          Open this link on your browser, <a href="https://devconfin2018.sched.com/mobile/#page:page-schedule" target="_blank">https://devconfin2018.sched.com/mobile/#page:page-schedule</a>
+        </li>
+        <li>
+          Then go to your menu of the browser and click on add to homescreen button.
+        </li>
+      </ol>
+    </div>
+    <div class="one-third-responsive no-material last-column">
+      <center>
+        <img data-original="/images/events/in/2018/sched-mobile-screenshot-lowres.jpg" class="preload-image" alt="img" />
+      </center>
+    </div>
+
+    <div class="clear"></div>
+
+    <p class="full-bottom">
+      The Christ university follows a strict 🚫 NO Carbonated/Aerated drinks 🚫 policy, so kindly refrain from carrying such drinks to the venue, also these will not be available in the campus.
+    </p>
+
+    <p class="full-bottom">
+      Follow the code of conduct or you will be asked to leave the event: <a href="https://devconf.info/coc" target="_blank">https://devconf.info/coc</a>
+    </p>
+
+    <p class="full-bottom">
+      All the sessions including keynote will take place in 2 buildings - Audi block and central block of the Christ University. Please refer the map below.
+    </p>
+
+    <center>
+      <img data-original="/images/events/in/2018/venue-map-christ-university-bangalore-india.jpg" class="preload-image full-bottom" alt="img" />
+    </center>
+
+    <p class="full-bottom">
+      The Campus of Christ university is a specially abled friendly and wheel-chair accessible campus. ❤♿❤
+    </p>
+
+    <p class="full-bottom">
+      All the sessions / workshops / Lunch space etc, will be available on first come first serve basis and limited access, so please make sure you arrive earlier for the sessions you are interested in. In case you don’t find seat, you should be able to attend a session in main auditorium of Cloud and Container track, which has a capacity of 2000 attendees.
+    </p>
+
+    <p class="full-bottom">
+      Photography 📷 is allowed within the session and conference areas. In the common areas of the university like passages, internal roads and campuses, we request you refrain from photography.
+    </p>
+
+    <p class="full-bottom">
+      No WIFI will be provided to any attendees except for workshops.
+    </p>
+
+    <p class="full-bottom">
+      Please expect low connectivity in general at the campus and note there are no Mobile charging points available except the session rooms. Please carry a power bank with you to avoid power loss.
+    </p>
+
+    <p class="full-bottom">
+      All attendees are requested to attend the opening and closing keynotes for both the days, as we are getting excellent speakers and it would be great if you respect their efforts by attending the keynotes.
+    </p>
+
+    <p class="full-bottom">
+      Attendees can buy lunch / food from “Gourmet” at minus 1 floor in central block and Nandini Palace, opposite of central block.
+    </p>
+
+    <p class="full-bottom">
+      Additional dining 🍴 options near the venue are as follows:
+    </p>
+
+    <ul class="full-bottom">
+      <li>
+        Toscano – Italian
+      </li>
+      <li>
+        Smally’s Resto Cafe – Cafe – Italian, American
+      </li>
+      <li>
+        Harry’s Bar and Cafe – Asian, American
+      </li>
+      <li>
+        Punjab Grill – North Indian
+      </li>
+      <li>
+        BonSouth – South Indian
+      </li>
+      <li>
+        Hanoi -Vietnamese
+      </li>
+      <li>
+        Sultans of Spice – Indian, Mughlai
+      </li>
+      <li>
+        Nasi and Mee – South east Asia
+      </li>
+      <li>
+        Gilly’s Restobar -  Continental, Indian
+      </li>
+      <li>
+        Salt – Indian Grill
+      </li>
+      <li>
+        Punjab Bistro – India
+      </li>
+      <li>
+        Roots – Indian
+      </li>
+      <li>
+        The Boozy Griffin – European Continental
+      </li>
+      <li>
+        Foxtrot – Lounge- Continental
+      </li>
+      <li>
+        The Black Pearl – Indo-western
+      </li>
+      <li>
+        Koramangala Social – Lounge Indo-western
+      </li>
+      <li>
+        Big Wong XL – Chinese
+      </li>
+      <li>
+        Chianti – Italian
+      </li>
+      <li>
+        Truffles - Cafe - American
+      </li>
+    </ul>
+
+    <p class="full-bottom">
+      Parking: As there are limited parking slots enough for the conference, we encourage you to use a public / private mass transport options 🚌🚋 as much as possible, to avoid strain on the entrance gate and on the parking area in general.
+    </p>
+
+    <p class="full-bottom">
+      Feedback: Once the event starts, <a href="https://devconfin2018.sched.com" target="_blank">sched.com</a> will provide a option to give 🗣 feedback 📝 on every session you attend. We would like to request you to please take some time after the session and give your valuable feedback for each speaker you are present to. This is possible to click on the talk and then leave a feedback. It will help us manage the conference better.
+    </p>
+
+    <p class="full-bottom">
+      ⚠🕵 Finally, note that all attendees are responsible for all your personal valuables and other belongings at all times! 🕵⚠
+    </p>
+
+  </div>
+
+<!-- END devconf 2018 sponsors -->
+
+    <!-- BEGIN devconf 2018 sponsors -->
+
+  <div class="decoration-line-fade decoration-margins"></div>
+
+  <div class="content no-material">
+    <h2 class="center-text">Tuto událost vám přináší:</h2>
+
+    <div class="one-third-responsive">&nbsp;</div>
+
+    <div class="one-third-responsive">
+      <a href="https://www.redhat.com/en" target="_blank">
+        <img data-original="/images/sponsors/logo-red-hat.svg " class="preload-image responsive-image full-bottom" alt="img" />
+      </a>
+    </div>
+
+    <div class="one-third-responsive last-column">&nbsp;</div>
+
+    <div class="clear"></div>
+
+    <h2 class="center-text">Hosted by:</h2>
+
+    <div class="one-third-responsive">&nbsp;</div>
+
+    <div class="one-third-responsive">
+      <a href="https://christuniversity.in" target="_blank">
+        <img data-original="/images/sponsors/logo-christ-university.jpg " class="preload-image responsive-image full-bottom" alt="img" />
+      </a>
+    </div>
+
+    <div class="one-third-responsive last-column">&nbsp;</div>
+
+    <div class="clear"></div>
+
+
+
+    <h3 class="center-text full-bottom">A podporována našimi přáteli v:</h3>
+
+    <div class="one-third-responsive">
+      <!--
+      <a href="https://www.openshift.com" target="_blank">
+        <img data-original="/images/sponsors/logo-openshift.svg " class="preload-image responsive-image full-bottom" alt="img" />
+      </a>
+      -->
+      &nbsp;
+    </div>
+
+    <div class="one-third-responsive">
+      <a href="https://getfedora.org/" target="_blank">
+        <img data-original="/images/sponsors/logo-fedora.svg " class="preload-image responsive-image full-bottom" alt="img" />
+      </a>
+    </div>
+
+    <div class="one-third-responsive last-column">
+      <!--
+      <a href="http://www.fit.vutbr.cz/" target="_blank">
+        <img data-original="/images/sponsors/logo-vut-en.svg " class="preload-image responsive-image full-bottom" alt="img"/>
+      </a>
+      -->
+      &nbsp;
+    </div>
+
+    <div class="clear"></div>
+
+  </div>
+
+<!-- END devconf 2018 sponsors -->
+
+  </div>
+</div>
+<!-- END devconfus-2018-eventpage --> 
+
+       
+
+
+  
+  
+
+<!-- BEGIN footer -->
+
+  <div class="menu-bottom-bar menu-bottom-bar-five menu-bottom-bar-icon light-menu-bar">
+    <a href="/coc.cs.html"><i class="fa fa-heart-o"></i><span class="hide-if-mobile">Code of Conduct</span></a>
+    <a href="/participation-agreement.cs.html"><i class="fa fa-handshake-o"></i><span class="hide-if-mobile">Participation Agreement</span></a>
+    <a href="/volunteer-roles.cs.html"><i class="fa fa-group"></i><span class="hide-if-mobile">Volunteer Roles
+    <a href="/media-policy.cs.html"><i class="fa fa-camera-retro"></i><span class="hide-if-mobile">Media Policy</span></a>
+    <a href="/privacy-statement.cs.html"><i class="fa fa-user-secret"></i><span class="hide-if-mobile">Privacy Policy</span></a>
+
+    <div class="clear"></div>
+
+    <!-- FIXME: Trademarks, Aknowledgements (photo attributions), Team -->
+
+  </div>
+
+  <div class="footer footer-dark">
+
+    <p>DevConf Contributor Conferences are technology conference events for Linux
+    and JBoss Developers, Admins, Linux and other open source project contributors,
+    organized by Red Hat.</p>
+
+    <p>Our aim in organizing the conference is to provide opportunities for
+    developers and contributors to meet and discuss future development of upstream
+    projects and share updates and announcements about recent progress.</p>
+
+    <p>Red Hat is the leading industry provider of open-source software and operating
+    systems. Red Hat's open-source software provides flexible alternatives to
+    proprietary operating systems such as UNIX. Renowned within the industry,
+    Red Hat employs more than 10,000 employees and maintains operations in 60
+    offices worldwide. More at <a href="https://www.redhat.com" target="_blank">redhat.com</a>.</p>
+
+    <div class="decoration"></div>
+
+    <div class="footer-socials">
+      <a href="mailto:info@devconf.in" class="icon icon-round no-border icon-xs mail-bg"><i class="fa fa-envelope"></i></a>
+      <a href="https://t.me/devconfin" class="icon icon-round no-border icon-xs phone-bg"><i class="fa fa-send-o"></i></a> 
+      <a href="https://www.facebook.com/DevConf.IN" class="icon icon-round no-border icon-xs facebook-bg"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/devconf_in" class="icon icon-round no-border icon-xs twitter-bg"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg" class="icon icon-round no-border icon-xs youtube-bg"><i class="fa fa-youtube"></i></a>
+      <a href="https://github.com/devconfcz/devconf" class="icon icon-round no-border icon-xs bg-night-light"><i class="fa fa-github"></i></a>
+    </div>
+
+    <div class="decoration"></div>
+
+    <p>
+        <a href="/privacy-policy.cs.html" target="_blank" class="color-gray-light">Various services</a> linked to this website use cookies to ensure that you receive the best experience possible while visiting. If you continue without changing your browser settings to reject cookies, we'll assume you are happy with this situation. However, if you would like to, you can change your cookie settings in your browser at any time or not use this website.
+    </p>
+
+    <div class="decoration"></div>
+
+    <p class="copyright-text">
+      <i class="fa fa-copyright fa-flip-horizontal"></i> Copyleft 2017-2018 Red Hat. Some Rights Reserved.
+    </p>
+
+  </div>
+
+<!-- END footer --> 
+
+    </div>
+  </div>
+
+  <div class="sidebar-tap-close"></div>
+
+   <!-- BEGIN SCRIPTS SECTION -->
+
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/plugins.js"></script>
+  <script type="text/javascript" src="/js/custom.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', UA-83802563-5, 'auto');
+    ga('send', 'pageview');
+  </script>
+
+<!-- END SCRIPTS SECTION --> 
+</body>
+</html>
