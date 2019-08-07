@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteBase /src/
 
 #Make sure it's not an actual file
 RewriteCond %{REQUEST_FILENAME} !-f
