@@ -1,5 +1,6 @@
 RewriteEngine On
-ErrorDocument 404 /404/index.html
+ErrorDocument 404 https://www.devconf.info/404/index.html
+ErrorDocument 500 https://www.devconf.info/404/index.html
 #Make sure it's not an actual file
 RewriteCond %{REQUEST_FILENAME} !-f
 #Make sure its not a directory
