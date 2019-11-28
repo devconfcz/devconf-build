@@ -1,762 +1,290 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <script type="text/javascript">
-    path = window.location.pathname;
-    if (window.location.pathname == "" || window.location.pathname == "/") {
-      switch(window.location.hostname) {
-        case "devconf.cz":
-	case "www.devconf.cz":
-          path = "/cz";
-          break;
-        case "devconf.in":
-	case "www.devconf.in":
-          path = "/in";
-          break;
-        case "devconf.us":
-	case "www.devconf.us":
-          path = "/us";
-          break;
-      }
-    }
-    if (window.location.hostname != "www.devconf.info" && window.location.hostname != "localhost") {
-       window.location.href = 'https://www.devconf.info' + path; 
-    }
-  </script>
-
-   <!-- BEGIN meta includes -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
-
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <meta name="author" content="Chris Ward <cward@redhat.com>">
-  <meta name="description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
-
-  <meta property="og:title" content="DevConf.US | August 15-17, 2019 - Boston, USA">
-  <meta property="og:site_name" content="DevConf.US">
-  <meta property="og:description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://devconf.us">
-  <meta property="og:image" content="https://devconf.info/images/icon/us/devconf-us-icon.svg">
-  <meta property="twitter:image" content="https://devconf.info/images/icon/us/devconf-us-icon.svg">
-
-  <!-- YouTube Channel Linking Verification - DO NOT REMOVE!! -->
-  <meta name="google-site-verification" content="IXOh3zMePCSVZkCqKQr8dZVFfpQgPG5Og-ZpULr8MJ4" />
-
-  <!-- Favicons -->
-  <!-- Thanks to https://realfavicongenerator.net/ -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#512954">
-  <meta name="theme-color" content="#ffffff">
-
-<!-- END meta includes --> 
-
-   <!-- BEING CSS -->
-
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,800,800italic,900,900italic%7COpen+Sans:400,400i,700%7CRoboto%7CRoboto+Mono' rel='stylesheet' type='text/css'>
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/css/skin.css">
-    <link rel="stylesheet" type="text/css" href="/css/framework.css">
-    <link rel="stylesheet" type="text/css" href="/css/site.css">
-    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
-
-<!-- END CSS --> 
-
-  <title> DevConf.US | August 15-17, 2019 - Boston, USA </title>
-
-</head>
-
-<body>
-
-  <div class="page-preloader page-preloader-dark">
-      <div class="loader loader-frames"><i></i><i></i><i></i><i></i></div>
-  </div>
-
-   
-
-
-  
-  
-
-<!-- BEGIN navigation -->
-
-<div>
-  <div class="header header-dark">
-    <a href="#" class="header-icon header-icon-1 open-left-sidebar"><i class="fa fa-navicon"></i></a>
-    <a href="/index.html" class="header-logo scale-hover"></a>
-    <!--<a href="#" class="header-icon header-icon-4 open-right-sidebar"><i class="fa fa-gears"></i></a>-->
-  </div>
-
-  <div class="sidebar-left sidebar-light">
-    <div class="sidebar-scroll">
-      <div class="sidebar-header sidebar-header-background">
-        <h1>DevConf</h1>
-        <h2>Contributors Conference</h2>
-        <img class="sidebar-logo-image preload-image" data-original="/images/icon/devconf-icon-50x50.png">
-        <div class="sidebar-header-controls">
-          <a href="https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg"><i class="fa fa-youtube"></i></a>
-          <a href="https://www.facebook.com/DevConf.US"><i class="fa fa-facebook"></i></a>
-          <a href="https://twitter.com/devconf_us"><i class="fa fa-twitter"></i></a>
-          <a href="https://t.me/devconfus"><i class="fa fa-telegram"></i></a>
-          <a href="mailto:info@devconf.us"><i class="fa fa-envelope"></i></a>
-        </div>
-      </div>
-
-      <div class="sidebar-divider">Upcoming Events</div>
-
-      <div class="sidebar-menu">
-        <div class="has-submenu">
-          <a class="menu-item open-submenu active-item" href="#"><!-- active-item -->
-            <i class="bg-green-dark fa fa-home"></i>Main Events<em class="menu-number">0</em>
-          </a>
-          <div class="submenu active-submenu"><!--active-submenu-->
-            <a class="menu-item color-black" href="/us/2019/index.html">
-              <i class="fa fa-calendar-check-o"></i>Boston US 2019<i class="fa fa-circle"></i>
-            </a>
-          </div>
-          <div class="submenu active-submenu">
-            <a class="menu-item color-black" href="/cz/2020/index.html">
-              <i class="fa fa-calendar-check-o"></i>Brno CZ 2020<i class="fa fa-circle"></i>
-            </a>
-          </div>
-          <div class="submenu active-submenu">
-            <a class="menu-item color-black" href="/in/2019/index.html">
-              <i class="fa fa-calendar-check-o"></i>India 2019<i class="fa fa-circle"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="sidebar-divider color-gray-dark">Past Events</div>
-
-        <div class="has-submenu">
-          <a class="menu-item open-submenu" href="#">
-            <i class="bg-gray-dark fa fa-history"></i>Main Events<em class="menu-number">0</em>
-          </a>
-          <div class="submenu">
-	    <a class="menu-item color-gray-dark" href="/cz/2019/index.html">
-	      <i class="fa fa-calendar-check-o"></i>Brno 2019<i class="fa fa-circle"></i>
-	    </a>
-	    <a class="menu-item color-gray-dark" href="/us/2018/index.html">
-              <i class="fa fa-calendar-check-o"></i>Boston 2018<i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item color-gray-dark" href="/cz/2018/index.html">
-              <i class="fa fa-calendar-check-o"></i>Brno 2018<i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item color-gray-dark" href="/cz/2017/index.html">
-              <i class="fa fa-calendar-check-o"></i>Brno 2017<i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item color-gray-dark" href="/in/2018/index.html">
-              <i class="fa fa-calendar-check-o"></i>Bengaluru 2018<i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item color-gray-dark" href="https://rootconf.talkfunnel.com/devconf-2017/">
-              <i class="fa fa-calendar-check-o"></i>Bengaluru 2017<i class="fa fa-circle"></i>
-            </a>
-            <a class="menu-item color-gray-dark" href="https://devconfcz2016.sched.com/">
-              <i class="fa fa-calendar-check-o"></i>Brno 2016<i class="fa fa-circle"></i>
-            </a>
-          </div>
-        </div>
-      <div class="has-submenu">
-        <a class="menu-item open-submenu" href="#"><!-- active-item -->
-          <i class="bg-gray-dark fa fa-history"></i>Roadshows<em class="menu-number">0</em>
-        </a>
-        <div class="submenu"><!--active-submenu-->
-          <a class="menu-item color-gray-dark" href="/cz/2017/roadshow-prague.html">
-            <i class="fa fa-calendar-check-o"></i>Prague 2017<i class="fa fa-circle"></i>
-          </a>
-          <a class="menu-item color-gray-dark" href="/sk/2017/roadshow-bratislava.html">
-            <i class="fa fa-calendar-check-o"></i>Bratislava 2017<i class="fa fa-circle"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="sidebar-divider color-gray-dark"></div>
-
-    <!--
-    <div class="demo-socials">
-      <a href="https://t.me/devconfcz" class="button button-icon devconf-bg"><i class="fa fa-telegram"></i>Join us on Telegram!</a>
-    </div>
-    -->
-
-    <div class="sidebar-divider color-gray-dark"></div>
-
-    <div class="sidebar-contact border-menu-dark">
-      <div class="sidebar-form contact-form no-bottom">
-        <p>Want to recieve updates about current and future DevConf events?</p>
-        <form action="https://devconf.us14.list-manage.com/subscribe/post?u=4405d7552dfc612aef814da21&amp;id=9dfaafef37" method="post" target="_blank" class="subscribeForm" id="subscribeForm" novalidate>
-          <fieldset>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"   name="b_4405d7552dfc612aef814da21_9dfaafef37" tabindex="-1" value=""></div>
-              <button type="submit"
-                            class="button no-border button-green"
-                            title="Stay up to date with DevConf Events around the world"
-                            data-toggle="popover"
-                            data-trigger="hover"
-                            data-placement="top"
-                            data-content="Updates and event information">
-                          Click to Subscribe &nbsp;&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--  -->
-
-<!-- END navigation --> 
-
-  <div id="page-content" class="header-clear-full">
-    <div id="page-content-scroll">
-
-       <!-- BEGIN devconfus-2019-eventpage -->
-<div class="content">
-  <div class="container event-container">
-
-    <div class="material-full-bottom">
-      <img data-original="/images/canva/devconf-us-2019-header.jpg" class="preload-image no-bottom responsive-image" alt="img" />
-      <div class="menu-bottom-bar menu-bottom-bar-four light-menu-bar menu-bottom-bar-text flat-menu-bar no-top cfp-menu">
-        <a href="http://bit.ly/devconf_us-cfp" target="_blank" class="border-blue-dark"><i class="fa fa-code"></i><em>Submit a proposal</em></a>
-        <a href="http://bit.ly/devconf_us-cfp" target="_blank" class="border-magenta-dark selected-bottom-bar"><i class="fa fa-bullhorn"></i><em>Run a booth</em></a>
-        <a href="http://bit.ly/devconf_us-cfp" target="_blank" class="border-orange-dark"><i class="fa fa-coffee"></i><em>Host a BoF</em></a>
-        <a href="http://bit.ly/devconf_us-cfp" target="_blank" class="border-night-light"><i class="fa fa-leaf"></i><em>Volunteer</em></a>
-        <div class="clear"></div>
-      </div>
-
-      <div class="notification-small border-green-dark" style="margin-bottom: 5px; margin-top: 5px">
-          <strong class="bg-green-dark"><i class="fa fa-bell"></i></strong>
-          <p><a href="https://devconfus2019.sched.com/" target="_blank">Schedule</a> and
-            <a href="https://devconf-us.eventbrite.com">Registration</a> are now live!</p>
-      </div>
-
-      <!--
-
-      <div class="notification-small border-red-dark" style="margin-bottom: 5px; margin-top: 5px">
-          <strong class="bg-red-dark"><i class="fa fa-bell"></i></strong>
-          <p>Walk-in registration only!</p>
-      </div>
-      -->
-
-      <div class="notification-small border-green-dark" style="margin-bottom: 5px; margin-top: 5px">
-          <strong class="bg-green-dark"><i class="fa fa-info"></i></strong>
-          <p><a href="https://wiki.centos.org/Events/Dojo/DevConfUS2019" target="_blank">CentOS dojo</a> side-event announced</p>
-      </div>
-
-      <div class="notification-small border-green-dark" style="margin-bottom: 5px; margin-top: 5px">
-        <strong class="bg-green-dark"><i class="fa fa-info"></i></strong>
-        <p><a href="#ai-day" >Cloud-Native AI, <em>the open source way</em></a> side-event announced</p>
-    </div>
-
-    <div class="decoration-line-fade decoration-margins"></div>
-      <div class="responsive">
-        <p>DevConf.US 2019 is the 2nd annual, free, <a href="https://redhat.com">Red Hat</a> sponsored technology conference for community project and professional contributors to Free and Open Source technologies at the Boston University in the historic city of Boston, USA.</p>
-        <p><strong>When:</strong> Thursday, August 15 to Saturday, August 17, 2019</p>
-        <p><strong>Venue:</strong> <a href="https://www.openstreetmap.org/way/130209090" target="_blank">Boston University, George Sherman Union Building</a> (775 Commonwealth Avenue, Boston)
-          <p>You should consider attending this DevConf event if you are:</p>
-          <ul>
-            <li>A developer</li>
-            <li>A technology architect</li>
-            <li>An IT consultant</li>
-            <li>An IT student or a teacher from an IT university/faculty</li>
-            <li>Or simply an IT enthusiast interested in the latest trends in open source and emerging digital technologies</li>
-          </ul>
-
-          <p>We will be presenting talks in the following tracks::</p>
-          <ul>
-            <li>Application Development & Containerization</li>
-            <li>Building and Running Clouds</li>
-            <li>Ensuring Software Quality</li>
-            <li>Machine Learning & Big Data</li>
-            <li>Open Source & Process</li>
-            <li>Serverless</li>
-            <li>Systems Engineering & Hardware</li>
-            <li>User Experience in Open Source</li>
-            <li>and, of course, coffee! lunch! and the ever popular, Hallway Track!</li>
-          </ul>
-
-          <p>DevConf events are free, without admission or ticket charge. On-line registration is required though.
-          Talks, presentations, and workshops will all be in English.</p>
-
-        <h3>Friday Night Pahty!</h3>
-          <p>Join us in your best themed attire for the 2019 DevConf "Star Wars / Hackers"
-            themed party on Friday, Aug. 16 from 7-10PM. Costumes are encouraged, so come
-            dressed as your favorite Star Wars character or let your wackiest 90s hacker
-            aesthetic shine. The best costumes will receive fun prizes!</p>
-          <p>Remember, tickets to the party are limited so, if you want to come, be
-            sure to collect a ticket at registration either Thursday or Friday morning.
-            The party will feature a DJ and Keytar Bear! Not to mention frozen treats, cookies
-            and ice cream! As your parents used to say, be sure to eat your dinner beforehand
-            so you can enjoy snacks and desserts!</p>
-        <h3>The Fringe!</h3>
-          <p>Join us on Wednesday, August 14th, the day before the main event, for two lead in events!
-            <em>Thanks <a href="https://fosdem.org" target="_blank">FOSDEM</a> for the naming of
-            "<a href="https://fosdem.org/2019/fringe/" target="_blank">the Fringe</a>" :)</em>.
-          </p>
-          <h4>Centos Dojo:</h4>
-          <p>The CentOS and Fedora communities will be holding a Dojo on August 14th, 2019 - the day before DevConf.US begins -
-            at Boston University, in the Balcony Room of the George Sherman Union building.</p>
-          <p>Checkout more information about CentOS Dojo at
-            <a href="https://wiki.centos.org/Events/Dojo/DevConfUS2019" target="_blank">Dojo at DevConf.US</a>.</p>
-          <h4><a name="ai-day">Cloud-Native AI</a>, <em>the open source way</em></h4>
-          <p>We will be offering two complementary workshops which cover everything you need to get started
-              with implementing and supporting your machine learning workloads on OpenShift.
-              In the morning session, you will deploy and configure a software stack in OpenShift for AI and ML workloads.
-              In the afternoon you will be introduced to the machine learning workflow and see how to solve a concrete
-              problem using machine learning.</p>
-          <p>While the event is free, you must
-            <a href="https://www.eventbrite.com/e/cloud-native-ai-the-open-source-way-tickets-66910227291">register</a>
-            to attend.
-            However, given the vagaries of attendance to a free event, please arrive on time so we don't
-            accidentally give away your seat.
-            So <a href="https://www.eventbrite.com/e/cloud-native-ai-the-open-source-way-tickets-66910227291">register</a>
-            today!!</p>
-          <p>If you aren't convinced yet, check out the <a href="https://devconfus2019.sched.com/overview/type/Cloud-Native+AI">schedule</a>!</p>
-        <h3>Important dates:</h3>
-        <ul>
-          <li>CfP Opens: <b>January 27th, 2019</b></li>
-          <li>CfP Closes: <b>April 8, 2019</b></li>
-          <li><strike>Accepted speakers confirmation: <b>May 16th, 2019</b></strike></li>
-          <li><strike>Accepted speakers confirmation: <b>May 27th, 2019</b></strike></li>
-          <li>Accepted speakers confirmation begins: <b>June 9th, 2019</b></li>
-          <li>Initial schedule published: <b><a href="https://devconfus2019.sched.com/">June 24th, 2019</a></b></li>
-          <li>Registration opens: <b><a href="https://devconf-us.eventbrite.com">June 9th, 2019</a></b></li>
-          <li>Event dates: <b>Thursday, August 15 to Saturday, August 17, 2019</b></li>
-        </ul>
-      </div>
-      <h3>Diversity scholarships:</h3>
-      <p>In an effort to create a more diverse and inclusive event, we offer
-          diversity scholarships that cover travel-related expenses for
-          attendees from outside of Red Hat who are students or are relatively new
-          or returning to full-time work in technology.
-        As DevConf.US is the DevConf for the North America region, these
-          scholarships are only available to people from the U.S. and Canada.
-        We particularly encourage to apply people from underrepresented in tech
-          or underprivileged backgrounds, including women, LGBTQ people, Blacks,
-          Latinos, Native Americans, veterans, people with neurological
-          differences, and people with physical disabilities.
-        We have awarded a number of scholarships for the 2019 event and look for
-          more next year!</p>
-<!--
-          <p>In an effort to create a more diverse and inclusive event, we will be
-        offering diversity scholarships that cover travel-related expenses for
-        attendees from outside of Red Hat who are students or are relatively new
-        or returning to full-time work in technology.
-        As DevConf.US is the DevConf for the North America region, these
-        scholarships are only available to people from the U.S. and Canada.
-        We particularly encourage to apply people from underrepresented in tech
-        or underprivileged backgrounds, including women, LGBTQ people, Blacks,
-        Latinos, Native Americans, veterans, people with neurological
-        differences, and people with physical disabilities. Decisions will be
-        made based on applicants’ experience with Red Hat-supported and other
-        open source technologies and based on being a student or being new or
-        returning to full-time work in technology. Please
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7myxl2Qu6ORqFTRP9Lo3JFjENivkpYwwCUL6AFJ43c-1Sbg/viewform">see complete details and apply</a>
-        by 5pm ET on Monday, June 17, 2019.</p>
--->
-      <div class="clear"></div>
-    </div>
-
-    <!-- BEGIN devconf 2019 proposal-writing -->
-
-  <div class="decoration-line-fade decoration-margins"></div>
-
-  <div class="content no-material">
-    <h2 class="center-text">Write a Great Talk Proposal</h2>
-
-    <br/>
-
-    <p>
-      We held two copies of "Writing a Great Talk Proposal," led by Red Hat's <a href="https://twitter.com/fuzzychef">Josh Berkus</a>. 
-      If you would like to see the slides you can find them <a href="/files/write-a-great-talk-proposal-for-devconf.pdf">here</a>. 
-      We will post a video recording as soon as it is available.
-    </p>
-    <p>
-      If you have specific questions or would like someone to review your proposal, 
-      please join us on <a href="irc://freenode/devconf">Freenode in the #devconf channel</a>. 
-      If you aren't really an IRC person, check out the <a href="https://webchat.freenode.net/">Freenode web interface</a>. 
-      On the login page, give yourself a nickname and then put #devconf in the "channels" box.
-    </p>
-  </div>
-
-<!-- END devconf 2019 proposal-writing -->
-
-    <!-- BEGIN devconf 2019 sponsors -->
-
-  <div class="decoration-line-fade decoration-margins"></div>
-
-  <div class="content no-material">
-    <h2 class="center-text">Coaching Program</h2>
-
-    <br/>
-
-    <p>
-      We would like to enable attendees who have not been to many conferences or would like to come up to speed on one of the topics covered at DevConf.US to have a supported experience by being paired up with more experienced attendees.
-      Everyone is encouraged to sign up as either a coach or an apprentice during registration and indicate the track topic based on which they would like to be paired up.
-      Roughly speaking, if you have had three or more years of experience with one of the track topics and have been to five or more conferences, you would make a great coach for the event.
-      If you would like to learn more about one of the conference topics, are interested in career advice, and/or have not attended many conferences in the past, you should consider signing up as an apprentice.
-      We will match people up and will send out mentor / apprentice introductions ahead of the conference.
-      Please feel free to sign up as either a coach or an apprentice even if you are only able to attend two of the three days and modify which days you will be available in your registration.
-      We will incorporate that information in the awesome matching algorithm (which is one of us matching attendees in a spreadsheet :) ).
-    </p>
-
-    <p>
-      One of the rooms on the third floor will be designated as a Coaching Room for exclusive use by people participating in the Coaching Program.
-      The overall time commitment is about 4 hours and it’s the coach’s responsibility to schedule the activities below:
-    </p>
-
-    <ol>
-        <li>
-          Meet in person or via a video call ahead of the conference to exchange introductions, answer any questions the apprentice has as they prepare to attend the conference, learn about apprentice’s career goals, and review the conference schedule together.
-          Plan to attend some talks together.
-        </li>
-        <li>
-          Meet on Thursday during lunch or at any other convenient time.
-          You can make this time your own, and for example, review the code base for a project of interest and ways to contribute or talk about what the mentor’s work entails and how they deal with challenging situations.
-        </li>
-        <li>
-          Do a short check-in meeting on Saturday to discuss takeaways from the conference and any next steps.
-        </li>
-        <li>
-          The coach and the apprentice can stay in touch as desired, but there is no expectation for them to do so.
-        </li>
-    </ol>
-  </div>
-
-<!-- END devconf 2019 sponsors -->
-
-    <!-- BEGIN devconf 2019 sponsors -->
-
-  <div class="decoration-line-fade decoration-margins"></div>
-
-  <div class="content no-material">
-    <h2 class="center-text">Inclusion at DevConf.US</h2>
-
-    <br/>
-
-    <p>
-      Inclusion is a priority for DevConf.US.
-      We are making an effort to accommodate the needs of people who want to attend.
-      We are also setting expectations for inclusive behavior through our
-      <a href="https://www.devconf.info/coc" target="_blank">code of conduct</a> and
-      <a href="https://www.devconf.info/media-policy" target="_blank">media</a> policies,
-      and are prepared to enforce these.
-    </p>
-
-    <p>
-      Read on for more information about the inclusion features we are offering
-      and <a href="mailto:info@devconf.us">let us know</a> if there is anything
-      else that would make it possible for you to attend the conference or would
-      make it a better experience for you.
-    </p>
-
-    <h3>Food Options</h3>
-
-    <p>
-      The conference will include coffee breaks in the morning and boxed lunches.
-      Vegetarian and gluten-free options will be available.
-    </p>
-
-    <h3>Wheelchair Accessibility</h3>
-
-    <p>
-      DevConf.US is held on the second and third floors of the George Sherman
-      Union at Boston University.
-      As you enter the building, there is a cafeteria on the left, where you can
-      find an elevator that will take you to the conference floors.
-      Registration is on the second floor.
-    </p>
-
-    <h3>Quiet Room</h3>
-
-    <p>
-      One of the rooms on the third floor will be designated as a Quiet Room,
-      where conversation and interaction are not allowed.
-      All attendees may feel free to use the Quiet Room as needed.</p>
-
-    <h3>Nursing Room</h3>
-
-    <p>
-      One of the rooms on the third floor will be designated as a Nursing Room
-      for attendees who need a private space for breastfeeding or pumping.
-      Please ask for a key at the registration desk.
-    </p>
-
-    <h3>All-Gender Restroom</h3>
-
-    <p>
-      One of the restrooms on the third floor will be designated as an all-gender
-      restroom. For all restrooms, we ask attendees to please respect other attendees’
-      choice of what restroom is most appropriate for them.
-    </p>
-
-  </div>
-<!--
-  <br/>
-
-  <a  name="diversity_scholarships"></a>
-
-  <div class="decoration-line-fade decoration-margins"></div>
-
-  <div class="content no-material">
-    <h2 class="center-text">Diversity Scholarships</h2>
-
-    <br/>
-
-    <p>
-    Red Hat is delighted to be able to offer scholarships for attending DevConf.US for new and returning technologists who are interested in learning more about Red Hat technologies and open source.
-We particularly encourage to apply people from underrepresented in tech or underprivileged backgrounds, including women, LGBTQ people, Blacks, Latinos, Native Americans, veterans, people with neurological differences, and people with physical disabilities.
-Decisions will be made based on applicants’ experience with open source and Red Hat-supported technologies and based on being new or returning to full-time work in technology.
-Scholarship amount requests might be taken into account in borderline situations so as to allow us to support more people.
-We welcome requests for travel, accommodations, food, child care, and other expenses.
-You can request an amount between $100 and $1,500 if you have made significant contributions to a Red Hat-supported technology, and up to $800 otherwise.
-    </p>
-
-    <p>
-    To learn about Red Hat-supported technologies, please see the <a href="http://community.redhat.com/software/" target="_blank">list of projects Red Hat is a contributor to</a> and the <a href="https://www.redhat.com/en/technologies/all-products" target="_blank">list of products Red Hat offers</a>.
-We consider contributions that took you over 40 hours significant, and they can include any type of activity that helps an open source project thrive: coding, documentation, design, bug reporting, event organizing, translation, etc.
-    </p>
-
-    <p>
-    All scholarship recipients will be expected to participate in the DevConf.US Coaching Program (see details above).
-To apply, you must satisfy the following requirements:
-    </p>
-    <ul>
-        <li>You are 18 years or older on July 23, 2019.</li>
-        <li>You are not an employee, contractor, or intern working for Red Hat on July 23, 2019.</li>
-        <li>You are not a government employee or contractor working directly for the government in any country.</li>
-        <li>You are a resident of the U.S.
-or Canada, or will be in the U.S.
-or Canada on a valid visa August 16-19, 2019.</li>
-    </ul>
-
-    <p>
-    Find complete details in our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWz_7V_TKlImoYZFymcfTooTyYDqVor9h8SuI1ly4vgaUMMQ/viewform?usp=sf_link" target="_blank">application form</a> and apply by 8pm ET on Sunday, July 29.
-    </p>
-
-    <br/>
-
-  </div>
-  -->
-<!-- END devconf 2019 sponsors -->
-
-    <div class="heading-strip bg-heading-strip-1">
-  <h4 class="center-text">Travel</h4>
-  <div class="overlay dark-overlay"></div>
-</div>
-
-<div class="content no-material">
-  <div class="container">
-
-    <div class="clear"></div>
-
-    <div class="responsive">
-      <h2 class="full-top">Recommended Hotels</h2>
-
-      <div class="portfolio-wide full-bottom">
-        <div class="portfolio-wide-item portfolio-wide-card">
-            <a href="http://stay.bu.edu/redhat.bnb" class="portfolio-wide-caption" target="_blank">
-              <img class="preload-image responsive-image" data-original="/images/sponsors/hotel-devconfus-18-boston-boston-university-dorms.jpg">
-              <h3>Boston University Dorms (DISCOUNTED PRICE)</h3>
-              <em>+1 617-353-2238</em>
-              <div class="overlay"></div>
-            </a>
-        </div>
-        <div class="portfolio-wide-item portfolio-wide-card">
-            <a href="http://www.bostonhotelbuckminster.com/" class="portfolio-wide-caption" target="_blank">
-              <img class="preload-image responsive-image" data-original="/images/sponsors/hotel-devconfus-18-boston-buckminister.jpg">
-              <h3>Hotel Buckminister</h3>
-              <em>+1 617-236-7050</em>
-              <div class="overlay"></div>
-            </a>
-        </div>
-        <div class="clear"></div>
-        <div class="portfolio-wide-item portfolio-wide-card">
-            <a href="https://www.hotelcommonwealth.com/" class="portfolio-wide-caption" target="_blank">
-              <img class="preload-image responsive-image" data-original="/images/sponsors/hotel-devconfus-18-boston-commonwealth.jpg">
-              <h3>Hotel Commonwealth</h3>
-              <em>+1 866-784-4000</em>
-              <div class="overlay"></div>
-            </a>
-        </div>
-        <div class="portfolio-wide-item portfolio-wide-card">
-          <a href="https://www.marriott.com/hotels/travel/bosfn-residence-inn-boston-back-bay-fenway/" class="portfolio-wide-caption" target="_blank">
-              <img class="preload-image responsive-image" data-original="/images/sponsors/hotel-devconfus-18-boston-residence-inn.jpg">
-              <h3>Residence Inn</h3>
-              <em>+1 617-236-8787</em>
-              <div class="overlay"></div>
-            </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <div class="clear"></div>
-    <!-- BEGIN devconf 2019 sponsors -->
-
-  <div class="decoration-line-fade decoration-margins"></div>
-
-  <div class="content no-material">
-    <h2 class="center-text">This event is brought to you by:</h2>
-
-    <div class="one-third-responsive">&nbsp;</div>
-
-    <div class="one-third-responsive">
-      <a href="https://www.redhat.com/en" target="_blank">
-        <img data-original="/images/sponsors/logo-red-hat.svg " class="preload-image responsive-image full-bottom" alt="img" />
-      </a>
-    </div>
-
-    <div class="one-third-responsive last-column">&nbsp;</div>
-
-    <div class="clear"></div>
-
-    <h3 class="center-text full-bottom">And supported by our friends at:</h3>
-
-    <div class="one-half-responsive">
-      <a href="https://www.openshift.com" target="_blank">
-        <img data-original="/images/sponsors/logo-openshift.svg " class="preload-image responsive-image full-bottom" alt="img" />
-      </a>
-    </div>
-
-    <div class="one-half-responsive last-column">
-      <a href="https://getfedora.org/" target="_blank">
-        <img data-original="/images/sponsors/logo-fedora.svg " class="preload-image responsive-image full-bottom" alt="img" />
-      </a>
-    </div>
-
-    <h3 class="center-text full-bottom">&</h3>
-
-    <div class="one-third-responsive"> &nbsp; </div>
-
-    <div class="one-third-responsive">
-      <a href="https://www.bu.edu" target="_blank">
-        <img data-original="/images/sponsors/logo-boston-u-official-size-189px85px.jpg " class="preload-image full-bottom" alt="img"/>
-      </a>
-    </div>
-
-    <div class="one-third-responsive last-column"> &nbsp; </div>
-
-    <div class="clear"></div>
-
-  </div>
-
-<!-- END devconf 2019 sponsors -->
-
-  </div>
-</div>
-<!-- END devconfus-2019-eventpage --> 
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<meta name="author" content="Josef Ridky <jridky@redhat.com>">
+	<meta name="description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
+
+        <meta property="og:title" content="DevConf.US | Boston, USA">
+<meta property="og:site_name" content="DevConf.US">
+<meta property="og:description" content="DevConf are free and open, annual, open-source community conferences for community contibutors, sponsored by Red Hat.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devconf.info">
+<meta property="og:image" content="https://devconf.info/assets/images/devconf-us-social.png">
+<meta property="twitter:image" content="https://devconf.info/assets/images/devconf-us-social.png">
+
+	<!-- YouTube Channel Linking Verification -->
+	<meta name="google-site-verification" content="IXOh3zMePCSVZkCqKQr8dZVFfpQgPG5Og-ZpULr8MJ4" />
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/assets/build/css/backtop.css?id=30aee734e20e9237be2a">
+	<link rel="stylesheet" href="/assets/build/css/site.css?id=93f9cb2e8ed6ff243fe2">
+<link rel="stylesheet" href="/assets/build/css/timeline.css?id=d19f7caa3f7eaf28f53d">
        
+        <script src="/assets/build/js/main.js?id=e5eb3b40f25d86321dfe"></script>
 
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#512954">
 
-  
-  
+	<title>DevConf.US 2020</title>
+    </head>
+    <body>
+	<a href="#" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+        <header class="masthead vh-100">
+	<nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top">
+		<span class="nav-brand"><a href="#" class="home"><img src="/assets/images/devconf-logo-us-reverse.svg" alt="DevConf logo"></a></span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile"
+		    aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarMobile">
+			<ul class="navbar-nav ml-auto pr-5">
+				<li class="nav-item active px-3">
+					<a href="#about" class="nav-link local">About & Topics</a>
+				</li>
+				<li class="nav-item active px-3">
+					<a href="#news" class="nav-link local">News</a>
+				</li>
+<!--				<li class="nav-item active px-3">
+					<a href="#schedule" class="nav-link local">Schedule</a>
+				</li>
+-->				<li class="nav-item active px-3">
+					<a href="#travel" class="nav-link local">How to get here?</a>
+				</li>
+				<li class="nav-item active px-3">
+					<a href="/us/faq" class="nav-link local">FAQ</a>
+				</li>
+				<li class="nav-item active px-3">
+					<a href="/coc" class="nav-link local" target="_blank">Policies</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="row mr-0 mt-5" style="height: 85%">
+		<div class="col-lg-1 border-right text-center pr-0">
+			<a href="mailto:info@devconf.us" target="_blank" title="Mail"><img src="/assets/images/mail.svg" alt="mail" class="social-icon"></a>
+			<a href="https://www.facebook.com/DevConf.US" target="_blank" title="Facebook"><img src="/assets/images/facebook.svg" alt="facebook" class="social-icon"></a>
+			<a href="https://twitter.com/devconf_us" target="_blank" title="Twitter"><img src="/assets/images/twitter.svg" alt="twitter" class="social-icon"></a>
+			<a href="https://t.me/devconfus" target="_blank" title="Telegram"><img src="/assets/images/telegram.svg" alt="telegram" class="social-icon"></a>
+			<a href="https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg" target="_blank" title="YouTube"><img src="/assets/images/youtube.svg" alt="youtube" class="social-icon"></a>
+			<a href="https://github.com/devconfcz/devconf" target="_blank" title="Git Hub"><img src="/assets/images/github.svg" alt="github" class="social-icon"></a>
+		</div>
+		<div class="col-lg-10 h-100 px-0">
+                	<div style="padding: 5% 0 0 0">
+                        	<img src="/assets/images/devconf-logo-us-reverse.svg" alt="DevConf logo" class="text-logo">
+                        	<img src="/assets/images/devconf-abstract.svg" alt="DevConf abstract logo" class="abstract-logo">
+                        </div>
+			<div class="heading-text mont-400 h5 pb-5">
+				open source community conference
+			</div>
+			<div class="heading-text mont-700 h1 pt-5">
+				August, 2020
+			</div>
+			<div class="heading-text mont-700 h4">
+				Boston, USA
+			</div>
+<!--			<div class="heading-text pt-5 mt-5">
+				<a href="https://cfp.devconf.info" target="_blank" class="border p-3 h2 mont-700" style="border-width: 3px !important;">SUBMIT YOUR PROPOSAL</a>
+			</div>-->
+		</div>
+	</div>
+</header>
 
-<!-- BEGIN footer -->
+<section id="about" class="mx-auto col-lg-11">
+	<div class="row mt-4 py-5">
+		<div class="col-lg-4 mx-5 mb-5 text-center">
+			<img src="/assets/images/devconf-d-boston.png" class="mw-100" alt="Brno DevConf image asset">
+		</div>
+		<div class="col-lg-6 px-5">
+			<h1 class="mont-700 underline pb-4">About DevConf</h1>
+			<div class="os-400">
+                <p>DevConf.US 2020 is the 3rd annual, free, Red Hat sponsored technology conference for community project and professional contributors to Free and Open Source technologies
+		 at the Boston University in the historic city of Boston, USA.</p>
 
-  <div class="menu-bottom-bar menu-bottom-bar-five menu-bottom-bar-icon light-menu-bar">
-    <a href="/coc"><i class="fa fa-heart-o"></i><span class="hide-if-mobile">Code of Conduct</span></a>
-    <a href="/participation-agreement"><i class="fa fa-handshake-o"></i><span class="hide-if-mobile">Participation Agreement</span></a>
-    <a href="/volunteer-roles.html"><i class="fa fa-group"></i><span class="hide-if-mobile">Volunteer Roles
-    <a href="/media-policy"><i class="fa fa-camera-retro"></i><span class="hide-if-mobile">Media Policy</span></a>
-    <a href="/privacy-statement"><i class="fa fa-user-secret"></i><span class="hide-if-mobile">Privacy Policy</span></a>
+		<p>There is no admission or ticket charge for DevConf.US events. However, you are required to complete a free registration. Watch this site for updates about registration. 
+		Talks, presentations and workshops will all be in English.</p>
 
-    <div class="clear"></div>
+                <p>We are committed to fostering an open and welcoming environment at our conference.
+                   We set expectations for inclusive behavior through our code of conduct and media policies, and are prepared to enforce these.</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- FIXME: Trademarks, Aknowledgements (photo attributions), Team -->
+	<div class="row">
+		<div class="h1 mx-5 mont-700">Topics</div>
+	</div>
+	<div class="row py-4">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-2 mx-auto">
+			<ul class="timeline timeline-centered">
+							<li class="timeline-item">
+					<div class="timeline-content-left">
+						<div class="mont-600 timeline-title">Application Development & Containerization</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+					<div class="timeline-marker"></div>
+									<div class="timeline-content-right">
+						<div class="mont-600 timeline-title">Building and Running Clouds</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+				</li>
+								<li class="timeline-item">
+					<div class="timeline-content-left">
+						<div class="mont-600 timeline-title">Ensuring Software Quality</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+					<div class="timeline-marker"></div>
+									<div class="timeline-content-right">
+						<div class="mont-600 timeline-title">Machine Learning and Big Data</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+				</li>
+								<li class="timeline-item">
+					<div class="timeline-content-left">
+						<div class="mont-600 timeline-title">Open Source & Process</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+					<div class="timeline-marker"></div>
+									<div class="timeline-content-right">
+						<div class="mont-600 timeline-title">Serverless</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+				</li>
+								<li class="timeline-item">
+					<div class="timeline-content-left">
+						<div class="mont-600 timeline-title">Systems Engineering & Hardware</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+					<div class="timeline-marker"></div>
+									<div class="timeline-content-right">
+						<div class="mont-600 timeline-title">User Experience in Open Source</div>
+						<p class="timeline-description os-400"></p>
+					</div>
+				</li>
+							</ul>
+		</div>
+	</div>
+</section>
 
-  </div>
+<section id="news" class="mx-auto py-5 col-lg-11">
+	<div class="row">
+		<div class="h1 mx-5 mont-700">Important dates</div>
+	</div>
+	<div class="row">
+		<!-- Keep in pairs -->
+		<div class="col-10 col-md-5 mr-md-0 mx-auto py-3 border-bottom">
+			<div class="row">
+				<div class="col-4 h5 mont-700">TBD</div>
+				<div class="col-8">
+					<div class="row">
+						<div class="col mont-600"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-  <div class="footer footer-dark">
-
-    <p>DevConf Contributor Conferences are technology conference events for Linux
-    and JBoss Developers, Admins, Linux and other open source project contributors,
-    organized by Red Hat.</p>
-
-    <p>Our aim in organizing the conference is to provide opportunities for
-    developers and contributors to meet and discuss future development of upstream
-    projects and share updates and announcements about recent progress.</p>
-
-    <p>Red Hat is the leading industry provider of open-source software and operating
-    systems. Red Hat's open-source software provides flexible alternatives to
-    proprietary operating systems such as UNIX. Renowned within the industry,
-    Red Hat employs more than 10,000 employees and maintains operations in 60
-    offices worldwide. More at <a href="https://www.redhat.com" target="_blank">redhat.com</a>.</p>
-
-    <div class="decoration"></div>
-
-    <div class="footer-socials">
-      <a href="mailto:info@devconf.us" class="icon icon-round no-border icon-xs mail-bg"><i class="fa fa-envelope"></i></a>
-      <a href="https://t.me/devconfus" class="icon icon-round no-border icon-xs phone-bg"><i class="fa fa-send-o"></i></a> 
-      <a href="https://www.facebook.com/DevConf.US" class="icon icon-round no-border icon-xs facebook-bg"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/devconf_us" class="icon icon-round no-border icon-xs twitter-bg"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.youtube.com/channel/UCmYAQDZIQGm_kPvemBc_qwg" class="icon icon-round no-border icon-xs youtube-bg"><i class="fa fa-youtube"></i></a>
-      <a href="https://github.com/devconfcz/devconf" class="icon icon-round no-border icon-xs bg-night-light"><i class="fa fa-github"></i></a>
-    </div>
-
-    <div class="decoration"></div>
-
-    <p>
-        <a href="/privacy-policy.html" target="_blank" class="color-gray-light">Various services</a> linked to this website use cookies to ensure that you receive the best experience possible while visiting. If you continue without changing your browser settings to reject cookies, we'll assume you are happy with this situation. However, if you would like to, you can change your cookie settings in your browser at any time or not use this website.
-    </p>
-
-    <div class="decoration"></div>
-
-    <p class="copyright-text">
-      <i class="fa fa-copyright fa-flip-horizontal"></i> Copyleft 2017-2018 Red Hat. Some Rights Reserved.
-    </p>
-
-  </div>
-
-<!-- END footer --> 
-
-    </div>
-  </div>
-
-  <div class="sidebar-tap-close"></div>
-
-   <!-- BEGIN SCRIPTS SECTION -->
-
-  <script type="text/javascript" src="/js/jquery.js"></script>
-  <script type="text/javascript" src="/js/plugins.js"></script>
-  <script type="text/javascript" src="/js/custom.js"></script>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', UA-83802563-4, 'auto');
-    ga('send', 'pageview');
-  </script>
-
-<!-- END SCRIPTS SECTION --> 
-</body>
+		<!-- Second pair -->
+		<div class="col-10 col-md-5 ml-md-0 mx-auto py-3 border-bottom">
+			<div class="row">
+				<div class="col-4 h5 mont-700"></div>
+				<div class="col-8">
+					<div class="row">
+						<div class="col mont-600"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+        </div>
+</section>
+<!--
+<section id="schedule" class="mx-auto col-lg-12 background-gray text-center mt-5 py-5">
+	<div class="h1 mont-700 py-4 mt-3">Schedule</div>
+	<a class="p-3 mont-700 mb-3 d-inline-block purple-href">SCHEDULE ISN'T AVAILABLE YET</a>
+</section>
+-->
+<section id="travel" class="mx-auto py-5 col-lg-11">
+	<div class="row">
+		<div class="mont-700 h1 underline position-relative mx-5 pb-4">How to get there?</div>
+	</div>
+	<div class="row py-4">
+		<div class="col-xl-3 container card-body my-2 ml-xl-auto mr-xl-3" style="background: #ada3ff">
+			<div class="row h-100 align-items-center">
+				<div class="col text-center">
+					<img src="/assets/images/travel-around.svg" class="my-4" alt="Getting around icon" style="height: 74px">
+					<h2 class="mont-700 mb-0">Getting around Boston</h2>
+					<div class="card-text os-400 pt-3">Boston has a 24 hour public transit system and the site is accessible by car.</div>
+					<p class="card-text my-5">
+						<a href="/us/aroundboston" class="border p-3 mont-700">MORE INFORMATION</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-3 container card-body my-2 mx-xl-3" style="background: #4a4a7e">
+			<div class="row h-100 align-items-center">
+				<div class="col text-center">
+					<img src="/assets/images/way-to.svg" class="my-4" alt="Getting to icon" style="height: 74px">
+					<h2 class="mont-700 mb-0">Getting to Boston</h2>
+					<div class="card-text os-400 pt-3">Boston is easily accessible by car, bus, train and plane.</div>
+					<p class="card-text my-5">
+						<a href="/us/toboston" class="border p-3 mont-700">MORE INFORMATION</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-3 container card-body my-2 ml-xl-3 mr-xl-auto" style="background: #8e83e4">
+			<div class="row h-100 align-items-center">
+				<div class="col text-center">
+					<img src="/assets/images/hotel.svg" class="my-4" alt="Hotel icon" style="height: 74px">
+					<h2 class="mont-700 mb-0">Hotels</h2>
+					<div class="card-text os-400 pt-3">Need a place to stay in Boston? We suggest these properties.</div>
+					<p class="card-text my-5">
+						<a href="/us/hotels" class="border p-3 mont-700">MORE INFORMATION</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+        <footer class="background-gray">
+	<div class="row py-5 w-100 mx-auto">
+		<div class="mx-auto col-lg-11">
+			<div class="row px-5">
+				<div class="col-lg-7">
+					<div class="h5 mont-600">Sponsored by</div>
+					<a href="https://redhat.com" target="_blank"><img class="support-logo pr-3 py-3" src="/assets/images/support/logo-redhat.svg"></a>
+<a href="https://www.openshift.com" target="_blank"><img class="support-logo pr-3 py-3" src="/assets/images/support/logo-openshift.svg"></a>
+<a href="https://getfedora.org" target="_blank"><img class="support-logo pr-3 py-3" src="/assets/images/support/logo-fedora.svg"></a>
+<a href="https://bu.edu" target="_blank"><img class="support-logo pr-3 py-3" src="/assets/images/support/logo-boston-university.svg"></a>
+					</div>
+					<div class="col-lg-5 links">
+						<div class="row">
+						<a class="col-md-6 col-12" target="_blank" href="/coc">Code of Conduct</a>
+						<a class="col-md-6 col-12" target="_blank" href="/participation-agreement">Participation Agreement</a>
+						<a class="col-md-6 col-12" target="_blank" href="/media-policy">Media Policy</a>
+						<a class="col-md-6 col-12" target="_blank" href="/privacy-statement">Privacy Statement</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row px-5 py-3 border-top w-100 mx-auto">
+			<div class="col-lg-11 mx-auto copyright">
+				Copyleft 2019 Red Hat. Some rights reserved.
+			</div>
+		</div>
+	</footer>
+    </body>
 </html>
